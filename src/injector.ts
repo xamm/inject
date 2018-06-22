@@ -1,18 +1,19 @@
-export module Injector {
+import { Dictionary } from "i-list-dictionary";
+export namespace Injector {
   const moduleDictionary = new Dictionary<string>();
 
   export function setInstance(name: string, instance: any) {
-    moduleDictionary.addItem(name, instance);
+    moduleDictionary.add(name, instance);
   }
 
   export async function Instance(name: string): Promise<any> {
-    const instance = moduleDictionary.getItem(name);
+    const instance = moduleDictionary.get(name);
 
     if (instance) {
       return instance;
     }
     const newInstance = await import(name);
-    moduleDictionary.addItem(name, newInstance);
+    moduleDictionary.add(name, newInstance);
     return newInstance;
   }
 }

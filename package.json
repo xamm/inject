@@ -17,5 +17,8 @@
 	},
 	"devDependencies": {
 		"typescript": "^2.9.2"
+	},
+	"dependencies": {
+		"i-list-dictionary": "0.0.1"
 	}
 }
