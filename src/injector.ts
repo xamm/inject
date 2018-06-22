@@ -6,6 +6,10 @@ export namespace Injector {
     moduleDictionary.add(name, instance);
   }
 
+  export function clear(name: string) {
+	  moduleDictionary.remove(name);
+  }
+
   export async function Instance(name: string): Promise<any> {
     const instance = moduleDictionary.get(name);
 
