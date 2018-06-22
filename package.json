@@ -1,0 +1,24 @@
+{
+	"name": "inject",
+	"version": "0.0.1",
+	"description": "Inject modules",
+	"repository": {
+		"type": "git",
+		"url": "https://www.github.com/xamm/inject.git"
+	},
+	"main": "lib/injector.js",
+	"types": "./lib/injector.d.ts",
+	"author": "xamm",
+	"license": "MIT",
+	"scripts": {
+		"prepublish": "npm run build",
+		"build": "tsc",
+		"postpublish": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^2.9.2"
+	},
+	"dependencies": {
+		"idictionary": "file:../idictionary"
+	}
+}
