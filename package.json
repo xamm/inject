@@ -17,8 +17,5 @@
 	},
 	"devDependencies": {
 		"typescript": "^2.9.2"
-	},
-	"dependencies": {
-		"idictionary": "file:../idictionary"
 	}
 }
