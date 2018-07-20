@@ -1,0 +1,18 @@
+sudo: false
+language: node_js
+node_js:
+  - "node"
+os:
+  - linux
+
+install:
+  - yarn
+
+script:
+  - yarn build
+  - yarn test
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
