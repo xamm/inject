@@ -7,14 +7,14 @@ export namespace Injector {
   }
 
   export function clear(name: string) {
-	  moduleDictionary.remove(name);
+    moduleDictionary.remove(name);
   }
 
   export async function Instance(name: string): Promise<any> {
-    const instance = moduleDictionary.get(name);
+    const instance: DictionaryEntry<string> | null = moduleDictionary.get(name);
 
     if (instance) {
-		return instance.value;
+      return instance.value;
     }
     const newInstance: DictionaryEntry<string> = await import(name);
     moduleDictionary.add(name, newInstance);
