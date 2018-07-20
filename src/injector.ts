@@ -14,7 +14,7 @@ export namespace Injector {
     const instance = moduleDictionary.get(name);
 
     if (instance) {
-		return instance;
+		return instance.value;
     }
     const newInstance: DictionaryEntry<string> = await import(name);
     moduleDictionary.add(name, newInstance);
