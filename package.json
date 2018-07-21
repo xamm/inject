@@ -31,11 +31,12 @@
 		"prepublish": "npm run build",
 		"build": "tsc",
 		"postpublish": "tsc",
-		"test": "jest"
+		"test": "jest --coverage --coverageReporters=text-lcov | coveralls"
 	},
 	"devDependencies": {
 		"@types/jest": "^23.3.0",
 		"@types/node": "^10.5.2",
+		"coveralls": "^3.0.2",
 		"jest": "^23.4.1",
 		"ts-jest": "^23.0.1",
 		"typescript": "^2.9.2"
