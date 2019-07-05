@@ -1330,6 +1330,7 @@ http-signature@~1.2.0:
 i-list-dictionary@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/i-list-dictionary/-/i-list-dictionary-0.0.1.tgz#36ec6cde199a9e12da42062810e83999dc5a2b7d"
+  integrity sha512-8PDwkuDbXKg5GLVOZPMW8WLb8Oyp/NW1WLFxvjjsjqRYzVSTpULZOntglMJURnQyykCpXrHyUQLJgBl4oHvNUA==
 
 iconv-lite@0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
@@ -3462,6 +3463,7 @@ type-check@~0.3.2:
 typescript@^2.9.2:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
+  integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
 uglify-js@^3.1.4:
   version "3.6.0"
