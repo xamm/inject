@@ -1,4 +1,5 @@
 .vscode/
+lib/__test__
 docs/
 coverage/
 _config.yml
