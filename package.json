@@ -6,8 +6,8 @@
 		"type": "git",
 		"url": "https://www.github.com/xamm/inject.git"
 	},
-	"main": "./lib/injector.js",
-	"types": "./lib/injector.d.ts",
+	"main": "lib/injector.js",
+	"types": "lib/injector.d.ts",
 	"author": "xamm",
 	"license": "MIT",
 	"jest": {

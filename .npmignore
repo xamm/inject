@@ -1,4 +1,4 @@
-
+.vscode/
 docs/
 coverage/
 _config.yml
@@ -8,3 +8,4 @@ tsconfig.json
 package
 *.tgz
 lib/
+src/
