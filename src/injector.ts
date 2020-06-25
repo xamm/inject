@@ -1,7 +1,7 @@
-import { Dictionary, DictionaryEntry } from "i-list-dictionary";
+import { Dictionary, IDictionaryEntry } from "modern-dictionary";
 export namespace Injector {
 
-  const moduleDictionary = new Dictionary<string>();
+  const moduleDictionary = new Dictionary();
 
   export function setInstance(name: string, instance: any) {
     validateNameParameter(name);
@@ -25,13 +25,13 @@ export namespace Injector {
   export async function Instance(name: string): Promise<any> {
     validateNameParameter(name);
 
-    const instance: DictionaryEntry<string> | null = moduleDictionary.get(name);
+    const instance: IDictionaryEntry | null = moduleDictionary.tryGetEntry(name);
 
     if (instance) {
       return instance.value;
     }
     const newInstance: any = await import(name);
-    moduleDictionary.add(name, newInstance);
+    moduleDictionary.forceAdd(name, newInstance);
     return newInstance;
   }
 }

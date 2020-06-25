@@ -1,0 +1,10 @@
+
+docs/
+coverage/
+_config.yml
+.gitignore
+.travis.yml
+tsconfig.json
+package
+*.tgz
+lib/

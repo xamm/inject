@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "https://www.github.com/xamm/inject.git"
 	},
-	"main": "lib/injector.js",
+	"main": "./lib/injector.js",
 	"types": "./lib/injector.d.ts",
 	"author": "xamm",
 	"license": "MIT",
@@ -42,6 +42,6 @@
 		"typescript": "^2.9.2"
 	},
 	"dependencies": {
-		"i-list-dictionary": "0.0.1"
+		"modern-dictionary": "^0.0.6"
 	}
 }

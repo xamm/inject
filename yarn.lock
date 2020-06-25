@@ -1372,11 +1372,6 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-i-list-dictionary@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/i-list-dictionary/-/i-list-dictionary-0.0.1.tgz#36ec6cde199a9e12da42062810e83999dc5a2b7d"
-  integrity sha512-8PDwkuDbXKg5GLVOZPMW8WLb8Oyp/NW1WLFxvjjsjqRYzVSTpULZOntglMJURnQyykCpXrHyUQLJgBl4oHvNUA==
-
 iconv-lite@0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -2435,6 +2430,11 @@ mkdirp@0.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+modern-dictionary@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/modern-dictionary/-/modern-dictionary-0.0.6.tgz#63b1b7258e12d385d2a1ef827d3c0761a65cdc8f"
+  integrity sha512-3WHY2rPuXrxrbHMBD0/QVUa1OkOw07b6Q28ctT7w54SRf9KvJEnXHmu4T4SzYGXQiCrnqgyMfIMDF4L/hhAwPw==
 
 ms@2.0.0:
   version "2.0.0"
