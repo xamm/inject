@@ -42,6 +42,6 @@
 		"typescript": "^2.9.2"
 	},
 	"dependencies": {
-		"modern-dictionary": "latest"
+		"modern-dictionary": "^1.0.0"
 	}
 }
