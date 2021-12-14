@@ -10,3 +10,4 @@ package
 *.tgz
 lib/
 src/
+.gitignore/
