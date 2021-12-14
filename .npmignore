@@ -1,4 +1,5 @@
 .vscode/
+__test__
 lib/__test__
 docs/
 coverage/
@@ -10,4 +11,4 @@ package
 *.tgz
 lib/
 src/
-.gitignore/
+.github/
