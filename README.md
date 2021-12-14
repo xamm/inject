@@ -1,7 +1,3 @@
 # ugly-injector
 
-[![Build Status](https://travis-ci.org/xamm/inject.svg?branch=master)](https://travis-ci.org/xamm/inject)
-
-[![Coverage Status](https://coveralls.io/repos/github/xamm/inject/badge.svg?branch=master)](https://coveralls.io/github/xamm/inject?branch=master)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build & Test](https://github.com/xamm/inject/actions/workflows/build_test.yml/badge.svg)](https://github.com/xamm/inject/actions/workflows/build_test.yml) ![npm](https://img.shields.io/npm/v/ugly-injector?color=blue&label=Version) ![npm](https://img.shields.io/npm/dt/ugly-injector) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
